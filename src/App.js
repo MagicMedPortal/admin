@@ -155,7 +155,9 @@ function PatientTable(){
 
 
   return (
+    
     <Stack>
+      <p><Typography variant='h6' color={'primary.dark'} fontWeight={'bold'}>PATIENTS WAITING</Typography></p>
       <p><Button variant='contained' color='info' style={{width: "200px"}} onClick={()=>{alert("This experience is similar to the Patient Intake.")}}>Add New Patient</Button></p>
     <TableContainer component={Paper}>
       <Table maxWidth="1240px" aria-label="simple table">
